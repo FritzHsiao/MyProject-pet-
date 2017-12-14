@@ -7,7 +7,6 @@ class calendarVC: UIViewController ,FSCalendarDataSource ,FSCalendarDelegate ,UI
     @IBOutlet weak var tableV: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
     }
     var selecteddate: Date?
